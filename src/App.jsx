@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 
 export default function App() {
- let router= createBrowserRouter([{path:'Start-framework',element:<Layout/>,children:[{
+ let router= createBrowserRouter([{path:'',element:<Layout/>,children:[{
   path:'',element:<Home/>},
   {path:'About',element:<About/>},
   {path:'Portfolio',element:<Portfolio/>},
